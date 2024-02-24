@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(7, 110, 110);
+    margin:0px;
+
+}
+h1{
+    text-align: center;
+    /* color: #fff; */
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(254, 254, 76);
+ 
+}
+.container{
+    height: 40vh;
+    width: 80vw;
+/* background-color: black; */
+
+display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+h2{
+color: rgb(148, 226, 21);
+font-size: 26px;
+font-weight: 500;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: left;
+margin-left: 50px;
+}
+.choice{
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+   margin-left: 20px;
+}
+img{
+    height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.choice:active{
+    opacity: 0.5;
+}
+.input{
+    height: 40px;
+    width: 900px;
+    /* background-color: black; */
+    margin-top :1% ;
+    color: white;
+     font-size:36px ;
+     text-align: center;
+     
+
+}
+#select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#counter{
+    background-color: rgb(221, 228, 235);
+    font-size: 144px;
+    text-align: center;
+}
+.timer{
+    display: flex;
+justify-content: space-between;
+}
+.btn{
+    text-align: center;
+   
+
+}
+button{
+    margin-top: 40px;
+    margin-bottom: 200px;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+#restart{
+    background-color: burlywood;  
+}
+#continue{
+    background-color:deeppink;
+}
+#overallresult{
+   
+    text-align: center;
+    font-size: 56px;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+}
+#exit{
+    background-color: indianred;
+    
+  
+}
+.output{
+    color:deeppink ;
+    opacity: 0;
+    font-size: 100px;
+    background-color:bisque;
+    text-align: center;
+
+}
+
+
+

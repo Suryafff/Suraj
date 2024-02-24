@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.container{
+    color: white;
+    font-size: 100px;
+    width: 100%;
+  margin-left: 15%;
+    display: flex;
+    margin-top: 15%;
+    column-gap: 100px;
+    height: 100%;
+
+}
+.clickbtn{
+    margin-left:35%;
+    display: flex;
+    margin-top: 5%;
+    column-gap: 60px;
+   
+}
+button{
+width: 75px;
+font-size: 20px;
+color: #fff;
+cursor: pointer;
+}
+#start{
+    background-color: rgb(232, 27, 27);
+}
+#stop{
+background-color: rgb(10, 136, 177);
+}
+#reset{
+    background-color: blueviolet;
+}
+#ms{
+     visibility: hidden; 
+}
+span{
+    color :white;
+    font-size: 36px;
+}
