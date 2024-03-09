@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SIP CALCULATOR</h1>
+        <div class="flex">
+            <div class="investment">
+                <div class="price">
+               <input type="text" id="ammount"  placeholder="ammount to invest" required  > 
+               <h3>  enter ammount</h3> </div>
+               <div class="tenurre">
+               <input type="number" id="time" placeholder="years" required> <h3> enter years  </h3> </div>
+               <div class="intrest">
+                <input type="number" id="int" placeholder="expected return " required>
+                    <h3>
+                        
+                         enter interest in(%)</h3>
+                </div>
+
+            </div>
+            <div class="output">
+
+                
+            <h2>after  calculating</h2>
+                <div class="expected-return ">
+                    <h3>your total ammount is </h3>
+                    <div class ="return" ></div>
+  
+                </div>
+                <div class="gain">
+                    <h3>net  gain is</h3>
+                    <div class ="return"  id="gained"></div>
+                </div>
+            </div>
+        </div>
+        <div class="button-">
+        <button>CALCULATE</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
