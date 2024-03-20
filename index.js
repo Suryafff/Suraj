@@ -19,8 +19,8 @@ invest_box.style.left="10px"
 o1.style.opacity  ="1"
 
  total =Math.ceil( principal*((Math.pow(1+int,time)-1)/int));
-output.innerHTML = `RS${total}`
+output.innerHTML = `RS ${total}`
 let net_gain= total-(principal*time)
-gain.innerHTML=`RS${net_gain}`;
+gain.innerHTML=`RS ${net_gain}`;
 
 })
