@@ -1,0 +1,21 @@
+@media only screen and (max-width:400px)
+{
+    .container{
+width:20%;
+font-size:20px;
+column-gap:34px;
+margin-left:15%;
+
+    }
+    .clickbtn{
+        display:flex;
+        flex-direction: column;
+        padding-top:20px;
+        margin-left:0%;
+    }
+    .clickbtn>button{
+        margin-top:20px;
+        width:100%;
+        border-radius:25px;
+    }
+}
